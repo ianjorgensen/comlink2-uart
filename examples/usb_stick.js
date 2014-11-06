@@ -1,6 +1,6 @@
 var create = require('../');
 var usb = require('../lib/usb');
-
+var Serial = require('serialport');
 
 if (!module.parent) {
   console.log('howdy');

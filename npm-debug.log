@@ -1,0 +1,645 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', '.' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/ian/comlink2-uart',
+5 verbose install   [ 'binary',
+5 verbose install     'buffers',
+5 verbose install     'chainsaw',
+5 verbose install     'cylon',
+5 verbose install     'cylon-cli',
+5 verbose install     'event-stream',
+5 verbose install     'packet',
+5 verbose install     'put',
+5 verbose install     'bunyan',
+5 verbose install     'readable-stream',
+5 verbose install     'usb',
+5 verbose install     'serialport' ] ]
+6 info preinstall comlink2-uart@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping chainsaw@~0.1.0 /home/ian/comlink2-uart
+9 verbose already installed skipping cylon@~0.13.3 /home/ian/comlink2-uart
+10 verbose already installed skipping cylon-cli@~0.4.3 /home/ian/comlink2-uart
+11 verbose already installed skipping event-stream@~3.1.5 /home/ian/comlink2-uart
+12 verbose already installed skipping packet@~0.0.6 /home/ian/comlink2-uart
+13 verbose already installed skipping put@~0.0.6 /home/ian/comlink2-uart
+14 verbose already installed skipping bunyan@~0.22.3 /home/ian/comlink2-uart
+15 verbose already installed skipping readable-stream@~1.0.27-1 /home/ian/comlink2-uart
+16 verbose cache add [ 'usb@~0.3.11', null ]
+17 verbose cache add name=undefined spec="usb@~0.3.11" args=["usb@~0.3.11",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'usb@~0.3.11',
+18 verbose parsed url   path: 'usb@~0.3.11',
+18 verbose parsed url   href: 'usb@~0.3.11' }
+19 verbose cache add name="usb" spec="~0.3.11" args=["usb","~0.3.11"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '~0.3.11',
+20 verbose parsed url   path: '~0.3.11',
+20 verbose parsed url   href: '~0.3.11' }
+21 verbose addNamed [ 'usb', '~0.3.11' ]
+22 verbose addNamed [ null, '>=0.3.11-0 <0.4.0-0' ]
+23 verbose already installed skipping serialport@~1.4.0 /home/ian/comlink2-uart
+24 verbose already installed skipping binary@~0.3.0 /home/ian/comlink2-uart
+25 silly lockFile 388749ca-usb-0-3-11 usb@~0.3.11
+26 verbose lock usb@~0.3.11 /home/ian/.npm/388749ca-usb-0-3-11.lock
+27 verbose already installed skipping buffers@~0.1.1 /home/ian/comlink2-uart
+28 silly addNameRange { name: 'usb', range: '>=0.3.11-0 <0.4.0-0', hasData: false }
+29 verbose request where is /usb
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id ae6d44e490f7b567
+32 verbose url raw /usb
+33 verbose url resolving [ 'https://registry.npmjs.org/', './usb' ]
+34 verbose url resolved https://registry.npmjs.org/usb
+35 verbose request where is https://registry.npmjs.org/usb
+36 info trying registry request attempt 1 at 12:02:09
+37 verbose etag "9E3VSSPZJXOZOD3GZLG1BJQ1S"
+38 http GET https://registry.npmjs.org/usb
+39 http 304 https://registry.npmjs.org/usb
+40 silly registry.get cb [ 304,
+40 silly registry.get   { date: 'Mon, 25 Aug 2014 19:02:09 GMT',
+40 silly registry.get     server: 'Apache',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 19:02:09 GMT',
+40 silly registry.get     'cache-control': 'max-age=60',
+40 silly registry.get     etag: '"9E3VSSPZJXOZOD3GZLG1BJQ1S"',
+40 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+40 silly registry.get     'x-cache': 'HIT',
+40 silly registry.get     'x-cache-hits': '1',
+40 silly registry.get     'x-timer': 'S1408993329.727017,VS0,VE88',
+40 silly registry.get     vary: 'Accept',
+40 silly registry.get     'content-length': '0',
+40 silly registry.get     'keep-alive': 'timeout=10, max=50',
+40 silly registry.get     connection: 'Keep-Alive' } ]
+41 verbose etag https://registry.npmjs.org/usb from cache
+42 silly addNameRange number 2 { name: 'usb', range: '>=0.3.11-0 <0.4.0-0', hasData: true }
+43 silly addNameRange versions [ 'usb',
+43 silly addNameRange   [ '0.1.0',
+43 silly addNameRange     '0.1.1',
+43 silly addNameRange     '0.1.2',
+43 silly addNameRange     '0.2.0',
+43 silly addNameRange     '0.2.1',
+43 silly addNameRange     '0.2.2',
+43 silly addNameRange     '0.2.3',
+43 silly addNameRange     '0.3.0',
+43 silly addNameRange     '0.3.1',
+43 silly addNameRange     '0.3.2',
+43 silly addNameRange     '0.3.2-1',
+43 silly addNameRange     '0.3.4',
+43 silly addNameRange     '0.3.5',
+43 silly addNameRange     '0.3.7',
+43 silly addNameRange     '0.3.8-beta1',
+43 silly addNameRange     '0.3.8',
+43 silly addNameRange     '0.3.9',
+43 silly addNameRange     '0.3.10',
+43 silly addNameRange     '0.3.11' ] ]
+44 verbose addNamed [ 'usb', '0.3.11' ]
+45 verbose addNamed [ '0.3.11', '0.3.11' ]
+46 silly lockFile 67b58249-usb-0-3-11 usb@0.3.11
+47 verbose lock usb@0.3.11 /home/ian/.npm/67b58249-usb-0-3-11.lock
+48 silly lockFile 67b58249-usb-0-3-11 usb@0.3.11
+49 silly lockFile 67b58249-usb-0-3-11 usb@0.3.11
+50 silly lockFile 388749ca-usb-0-3-11 usb@~0.3.11
+51 silly lockFile 388749ca-usb-0-3-11 usb@~0.3.11
+52 silly resolved [ { name: 'usb',
+52 silly resolved     description: 'Library to access USB devices',
+52 silly resolved     keywords: [ 'usb', 'hardware' ],
+52 silly resolved     author: { name: 'Nonolith Labs', url: 'http://www.nonolithlabs.com' },
+52 silly resolved     contributors: [ [Object], [Object], [Object] ],
+52 silly resolved     version: '0.3.11',
+52 silly resolved     optionalDependencies:
+52 silly resolved      { 'usb-shyp-win32-x64': '0.3.x',
+52 silly resolved        'usb-shyp-win32-ia32': '0.3.x',
+52 silly resolved        'usb-shyp-darwin-x64': '0.3.x' },
+52 silly resolved     engines: { node: '>=0.8.x' },
+52 silly resolved     main: './usb',
+52 silly resolved     repository: { type: 'git', url: 'https://github.com/nonolith/node-usb.git' },
+52 silly resolved     scripts:
+52 silly resolved      { install: 'node shyp-blacklist.js win32-x64 win32-ia32 darwin-x64 || node-gyp rebuild',
+52 silly resolved        test: 'mocha --compilers coffee:coffee-script --grep Module',
+52 silly resolved        'full-test': 'mocha --compilers coffee:coffee-script',
+52 silly resolved        valgrind: 'coffee -c test/usb.coffee; valgrind --leak-check=full --show-possibly-lost=no node --expose-gc --trace-gc node_modules/mocha/bin/_mocha -R spec' },
+52 silly resolved     dependencies:
+52 silly resolved      { 'bindings-shyp': '~0.2.3',
+52 silly resolved        'usb-shyp-win32-x64': '0.3.x',
+52 silly resolved        'usb-shyp-win32-ia32': '0.3.x',
+52 silly resolved        'usb-shyp-darwin-x64': '0.3.x' },
+52 silly resolved     devDependencies: { 'coffee-script': '~1.6.2', mocha: '~1.8.2' },
+52 silly resolved     license: 'MIT',
+52 silly resolved     readme: 'USB Library for Node.JS\n===============================\n\n**POSIX:** [![Build Status](https://travis-ci.org/nonolith/node-usb.svg?branch=tcr-usb)](https://travis-ci.org/nonolith/node-usb) &nbsp;&nbsp;&nbsp; **Windows:** [![Build status](https://ci.appveyor.com/api/projects/status/1q64jnnfseidkjwl)](https://ci.appveyor.com/project/tcr/node-usb)\n\nNode.JS library for communicating with USB devices in JavaScript / CoffeeScript.\n\nThis is a refactoring / rewrite of Christopher Klein\'s [node-usb](https://github.com/schakko/node-usb). The API is not compatible (hopefully you find it an improvement).\n\nIt\'s based entirely on libusb\'s asynchronous API for better efficiency, and provides a stream API for continuously streaming data or events.\n\nTested with Node 0.10/Fedora and Node 0.10/WinXP.\n\nInstallation\n============\n\nLibusb is required. Older versions of libusb segfault when using bulk or interrupt endpoints.\nUse [libusb](http://libusb.org) or [libusbx](http://libusbx.org) 1.0.9 or greater.\n\n**Ubuntu/Debian:** `sudo apt-get install build-essential pkg-config libusb-1.0-0-dev`  \n**Fedora:** `sudo yum install libusbx-devel`\n\n**OSX:** `brew install libusb pkg-config`\n\n**Windows:** Download a Windows Binary package from http://libusbx.org/ and extract it at `C:\\Program Files\\libusb`. Use [Zadig](http://sourceforge.net/projects/libwdi/files/zadig/) to install the WinUSB driver for your USB device. Otherwise you will get a `LIBUSB_ERROR_NOT_SUPPORTED` when attempting to open devices.\n\nThen, just run\n\n\tnpm install usb\n\nto install from npm. See the bottom of this page for instructions for building from a git checkout.\n\nAPI\n===\n\n  var usb = require(\'usb\')\n\nusb\n---\n\nTop-level object.\n\n### usb.getDeviceList()\nReturn a list of `Device` objects for the USB devices attached to the system.\n\n### usb.findByIds(vid, pid)\nConvenience method to get the first device with the specified VID and PID, or `undefined` if no such device is present.\n\n### usb.LIBUSB_*\nConstant properties from libusb\n\n### usb.setDebugLevel(level : int)\nSet the libusb debug level (between 0 and 4)\n\nDevice\n------\n\nRepresents a USB device.\n\n### .busNumber\nInteger USB device number\n\n### .deviceAddress\nInteger USB device address\n\n### .deviceDescriptor\nObject with properties for the fields of the device descriptor:\n\n  - bLength\n  - bDescriptorType\n  - bcdUSB\n  - bDeviceClass\n  - bDeviceSubClass\n  - bDeviceProtocol\n  - bMaxPacketSize0\n  - idVendor\n  - idProduct\n  - bcdDevice\n  - iManufacturer\n  - iProduct\n  - iSerialNumber\n  - bNumConfigurations\n\n### .configDescriptor\nObject with properties for the fields of the configuration descriptor:\n\n  - bLength\n  - bDescriptorType\n  - wTotalLength\n  - bNumInterfaces\n  - bConfigurationValue\n  - iConfiguration\n  - bmAttributes\n  - bMaxPower\n  - extra (Buffer containing any extra data or additional descriptors)\n\n### .open()\n\nOpen the device. All methods below require the device to be open before use.\n\n### .close()\n\nClose the device.\n\n### .controlTransfer(bmRequestType, bRequest, wValue, wIndex, data_or_length, callback(error, data))\n\nPerform a control transfer with `libusb_control_transfer`.\n\nParameter `data_or_length` can be a integer length for an IN transfer, or a Buffer for an out transfer. The type must match the direction specified in the MSB of bmRequestType.\n\nThe `data` parameter of the callback is always undefined for OUT transfers, or will be passed a Buffer for IN transfers.\n\n### .getStringDescriptor(index, callback(error, data))\nPerform a control transfer to retrieve a string descriptor\n\n### .interface(interface)\nReturn the interface with the specified interface number.\n\n### .interfaces\nList of Interface objects for the interfaces of the default configuration of the device.\n\n### .timeout\nTimeout in milliseconds to use for controlTransfer and endpoint transfers.\n\n### .reset(callback(error))\nPerforms a reset of the device. Callback is called when complete.\n\n\nInterface\n---------\n\n### .endpoint(address)\nReturn the InEndpoint or OutEndpoint with the specified address.\n\n### .endpoints\nList of endpoints on this interface: InEndpoint and OutEndpoint objects.\n\n### .interface\nInteger interface number.\n\n### .altSetting\nInteger alternate setting number.\n\n### .setAltSetting(altSetting, callback(error))\nSets the alternate setting. It updates the `interface.endpoints` array to reflect the endpoints found in the alternate setting.\n\n### .claim()\nClaims the interface. This method must be called before using any endpoints of this interface.\n\n### .release([closeEndpoints], callback(error))\nReleases the interface and resets the alternate setting. Calls callback when complete.\n\nIt is an error to release an interface with pending transfers. If the optional closeEndpoints parameter is true, any active endpoint streams are stopped (see `Endpoint.stopStream`), and the interface is released after the stream transfers are cancelled. Transfers submitted individually with `Endpoint.transfer` are not affected by this parameter.\n\n### .isKernelDriverActive()\nReturns `false` if a kernel driver is not active; `true` if active.\n\n### .detachKernelDriver()\nDetaches the kernel driver from the interface.\n\n### .attachKernelDriver()\nRe-attaches the kernel driver for the interface.\n\n### .descriptor\nObject with fields from the interface descriptor -- see libusb documentation or USB spec.\n\n  - bLength\n  - bDescriptorType\n  - bInterfaceNumber\n  - bAlternateSetting\n  - bNumEndpoints\n  - bInterfaceClass\n  - bInterfaceSubClass\n  - bInterfaceProtocol\n  - iInterface\n  - extra (Buffer containing any extra data or additional descriptors)\n\nEndpoint\n--------\n\nCommon base for InEndpoint and OutEndpoint, see below.\n\n### .direction\nEndpoint direction: `usb.LIBUSB_ENDPOINT_IN` or `usb.LIBUSB_ENDPOINT_OUT`.\n\n### .transferType\nEndpoint type: `usb.LIBUSB_TRANSFER_TYPE_BULK`, `usb.LIBUSB_TRANSFER_TYPE_INTERRUPT`, or `usb.LIBUSB_TRANSFER_TYPE_ISOCHRONOUS`.\n\n###  .descriptor\nObject with fields from the endpoint descriptor -- see libusb documentation or USB spec.\n\n  - bLength\n  - bDescriptorType\n  - bEndpointAddress\n  - bmAttributes\n  - wMaxPacketSize\n  - bInterval\n  - bRefresh\n  - bSynchAddress\n  - extra (Buffer containing any extra data or additional descriptors)\n\nInEndpoint\n----------\n\nEndpoints in the IN direction (device->PC) have this type.\n\n### .transfer(length, callback(error, data))\nPerform a transfer to read data from the endpoint.\n\nIf length is greater than maxPacketSize, libusb will automatically split the transfer in multiple packets, and you will receive one callback with all data once all packets are complete.\n\n`this` in the callback is the InEndpoint object.\n\n### .startStream(nTransfers=3, transferSize=maxPacketSize)\nStart a streaming transfer from the endpoint.\n\nThe library will keep `nTransfers`\ntransfers of size `transferSize` pending in the kernel at all times to ensure\ncontinuous data flow. This is handled by the libusb event thread, so it continues even\nif the Node v8 thread is busy. The `data` and `error` events are emitted as transfers complete.\n\n### .stopStream()\nStop the streaming transfer.\n\nFurther data may still be received. The `end` event is emitted once all transfers have completed or canceled.\n\n### Event: data(data : Buffer)\nEmitted with data received by the stream\n\n### Event: error(error)\nEmitted when the stream encounters an error.\n\n### Event: end\nEmitted when the stream has been canceled\n\nOutEndpoint\n-----------\n\nEndpoints in the OUT direction (PC->device) have this type.\n\n### .transfer(data, callback(error))\nPerform a transfer to write `data` to the endpoint.\n\nIf length is greater than maxPacketSize, libusb will automatically split the transfer in multiple packets, and you will receive one callback once all packets are complete.\n\n`this` in the callback is the OutEndpoint object.\n\n### .startStream(nTransfers=3, transferSize=maxPacketSize)\nStart a streaming transfer to the endpoint.\n\nThe library will help you maintain `nTransfers` transfers pending in the kernel to ensure continuous data flow.\nThe `drain` event is emitted when another transfer is necessary. Your `drain` handler should use the .write() method\nto start another transfer.\n\n### .write(data)\nWrite `data` to the endpoint with the stream. `data` should be a buffer of length `transferSize` as passed to startStream.\n\nDelegates to .transfer(), but differs in that it updates the stream state tracking the number of requests in flight.\n\n### .stopStream()\nStop the streaming transfer.\n\nNo further `drain` events will be emitted. When all transfers have been completed, the OutEndpoint emits the `end` event.\n\n### Event: drain\nEmitted when the stream requests more data. Use the .write() method to start another transfer.\n\n### Event: error(error)\nEmitted when the stream encounters an error.\n\n### Event: end\nEmitted when the stream has been stopped and all pending requests have been completed.\n\n\nDevelopment and testing\n=======================\n\nTo build from git:\n\n\tgit clone https://github.com/nonolith/node-usb.git\n\tcd node-usb\n\tnpm install\n\nTo execute the unit tests, [CoffeeScript](http://coffeescript.org) is required. Run\n\n\tnpm test\n\nSome tests require an attached USB device -- firmware to be released soon.\n\nLimitations\n===========\n\nDoes not support:\n\n  - Configurations other than the default one\n  - Isochronous transfers\n',
+52 silly resolved     readmeFilename: 'Readme.md',
+52 silly resolved     bugs: { url: 'https://github.com/nonolith/node-usb/issues' },
+52 silly resolved     homepage: 'https://github.com/nonolith/node-usb',
+52 silly resolved     _id: 'usb@0.3.11',
+52 silly resolved     _from: 'usb@~0.3.11' } ]
+53 info install usb@0.3.11 into /home/ian/comlink2-uart
+54 info installOne usb@0.3.11
+55 verbose node_modules/usb unbuild
+56 verbose tar unpack /home/ian/.npm/usb/0.3.11/package.tgz
+57 silly lockFile a5299299-n-comlink2-uart-node-modules-usb tar:///home/ian/comlink2-uart/node_modules/usb
+58 verbose lock tar:///home/ian/comlink2-uart/node_modules/usb /home/ian/.npm/a5299299-n-comlink2-uart-node-modules-usb.lock
+59 silly lockFile 0c76e14d-e-ian-npm-usb-0-3-11-package-tgz tar:///home/ian/.npm/usb/0.3.11/package.tgz
+60 verbose lock tar:///home/ian/.npm/usb/0.3.11/package.tgz /home/ian/.npm/0c76e14d-e-ian-npm-usb-0-3-11-package-tgz.lock
+61 silly gunzTarPerm modes [ '775', '664' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+68 silly gunzTarPerm extractEntry shyp-blacklist.js
+69 silly gunzTarPerm modified mode [ 'shyp-blacklist.js', 420, 436 ]
+70 silly gunzTarPerm extractEntry test-addremove.js
+71 silly gunzTarPerm modified mode [ 'test-addremove.js', 420, 436 ]
+72 silly gunzTarPerm extractEntry usb.js
+73 silly gunzTarPerm modified mode [ 'usb.js', 420, 436 ]
+74 silly gunzTarPerm extractEntry Readme.md
+75 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+76 silly gunzTarPerm extractEntry appveyor.yml
+77 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 436 ]
+78 silly gunzTarPerm extractEntry binding.gyp
+79 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 436 ]
+80 silly gunzTarPerm extractEntry .travis.yml
+81 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+82 silly gunzTarPerm extractEntry src/device.cc
+83 silly gunzTarPerm modified mode [ 'src/device.cc', 420, 436 ]
+84 silly gunzTarPerm extractEntry src/node_usb.cc
+85 silly gunzTarPerm modified mode [ 'src/node_usb.cc', 420, 436 ]
+86 silly gunzTarPerm extractEntry src/node_usb.h
+87 silly gunzTarPerm modified mode [ 'src/node_usb.h', 420, 436 ]
+88 silly gunzTarPerm extractEntry src/protobuilder.h
+89 silly gunzTarPerm modified mode [ 'src/protobuilder.h', 420, 436 ]
+90 silly gunzTarPerm extractEntry src/transfer.cc
+91 silly gunzTarPerm modified mode [ 'src/transfer.cc', 420, 436 ]
+92 silly gunzTarPerm extractEntry src/uv_async_queue.h
+93 silly gunzTarPerm modified mode [ 'src/uv_async_queue.h', 420, 436 ]
+94 silly gunzTarPerm extractEntry test/usb.js
+95 silly gunzTarPerm modified mode [ 'test/usb.js', 420, 436 ]
+96 silly gunzTarPerm extractEntry test/usb.coffee
+97 silly gunzTarPerm modified mode [ 'test/usb.coffee', 420, 436 ]
+98 silly lockFile a5299299-n-comlink2-uart-node-modules-usb tar:///home/ian/comlink2-uart/node_modules/usb
+99 silly lockFile a5299299-n-comlink2-uart-node-modules-usb tar:///home/ian/comlink2-uart/node_modules/usb
+100 silly lockFile 0c76e14d-e-ian-npm-usb-0-3-11-package-tgz tar:///home/ian/.npm/usb/0.3.11/package.tgz
+101 silly lockFile 0c76e14d-e-ian-npm-usb-0-3-11-package-tgz tar:///home/ian/.npm/usb/0.3.11/package.tgz
+102 info preinstall usb@0.3.11
+103 verbose readDependencies using package.json deps
+104 verbose readDependencies using package.json deps
+105 verbose cache add [ 'bindings-shyp@~0.2.3', null ]
+106 verbose cache add name=undefined spec="bindings-shyp@~0.2.3" args=["bindings-shyp@~0.2.3",null]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: 'bindings-shyp@~0.2.3',
+107 verbose parsed url   path: 'bindings-shyp@~0.2.3',
+107 verbose parsed url   href: 'bindings-shyp@~0.2.3' }
+108 verbose cache add [ 'usb-shyp-win32-x64@0.3.x', null ]
+109 verbose cache add name=undefined spec="usb-shyp-win32-x64@0.3.x" args=["usb-shyp-win32-x64@0.3.x",null]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: 'usb-shyp-win32-x64@0.3.x',
+110 verbose parsed url   path: 'usb-shyp-win32-x64@0.3.x',
+110 verbose parsed url   href: 'usb-shyp-win32-x64@0.3.x' }
+111 verbose cache add [ 'usb-shyp-win32-ia32@0.3.x', null ]
+112 verbose cache add name=undefined spec="usb-shyp-win32-ia32@0.3.x" args=["usb-shyp-win32-ia32@0.3.x",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'usb-shyp-win32-ia32@0.3.x',
+113 verbose parsed url   path: 'usb-shyp-win32-ia32@0.3.x',
+113 verbose parsed url   href: 'usb-shyp-win32-ia32@0.3.x' }
+114 verbose cache add name="bindings-shyp" spec="~0.2.3" args=["bindings-shyp","~0.2.3"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '~0.2.3',
+115 verbose parsed url   path: '~0.2.3',
+115 verbose parsed url   href: '~0.2.3' }
+116 verbose addNamed [ 'bindings-shyp', '~0.2.3' ]
+117 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+118 silly lockFile f6b51481-bindings-shyp-0-2-3 bindings-shyp@~0.2.3
+119 verbose lock bindings-shyp@~0.2.3 /home/ian/.npm/f6b51481-bindings-shyp-0-2-3.lock
+120 verbose cache add name="usb-shyp-win32-x64" spec="0.3.x" args=["usb-shyp-win32-x64","0.3.x"]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '0.3.x',
+121 verbose parsed url   path: '0.3.x',
+121 verbose parsed url   href: '0.3.x' }
+122 verbose addNamed [ 'usb-shyp-win32-x64', '0.3.x' ]
+123 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+124 silly lockFile 89bcf850-usb-shyp-win32-x64-0-3-x usb-shyp-win32-x64@0.3.x
+125 verbose lock usb-shyp-win32-x64@0.3.x /home/ian/.npm/89bcf850-usb-shyp-win32-x64-0-3-x.lock
+126 verbose cache add name="usb-shyp-win32-ia32" spec="0.3.x" args=["usb-shyp-win32-ia32","0.3.x"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '0.3.x',
+127 verbose parsed url   path: '0.3.x',
+127 verbose parsed url   href: '0.3.x' }
+128 verbose addNamed [ 'usb-shyp-win32-ia32', '0.3.x' ]
+129 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+130 silly lockFile 21539998-usb-shyp-win32-ia32-0-3-x usb-shyp-win32-ia32@0.3.x
+131 verbose lock usb-shyp-win32-ia32@0.3.x /home/ian/.npm/21539998-usb-shyp-win32-ia32-0-3-x.lock
+132 verbose cache add [ 'usb-shyp-darwin-x64@0.3.x', null ]
+133 verbose cache add name=undefined spec="usb-shyp-darwin-x64@0.3.x" args=["usb-shyp-darwin-x64@0.3.x",null]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'usb-shyp-darwin-x64@0.3.x',
+134 verbose parsed url   path: 'usb-shyp-darwin-x64@0.3.x',
+134 verbose parsed url   href: 'usb-shyp-darwin-x64@0.3.x' }
+135 verbose cache add name="usb-shyp-darwin-x64" spec="0.3.x" args=["usb-shyp-darwin-x64","0.3.x"]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: '0.3.x',
+136 verbose parsed url   path: '0.3.x',
+136 verbose parsed url   href: '0.3.x' }
+137 verbose addNamed [ 'usb-shyp-darwin-x64', '0.3.x' ]
+138 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+139 silly lockFile 3787fc88-usb-shyp-darwin-x64-0-3-x usb-shyp-darwin-x64@0.3.x
+140 verbose lock usb-shyp-darwin-x64@0.3.x /home/ian/.npm/3787fc88-usb-shyp-darwin-x64-0-3-x.lock
+141 silly addNameRange { name: 'bindings-shyp',
+141 silly addNameRange   range: '>=0.2.3-0 <0.3.0-0',
+141 silly addNameRange   hasData: false }
+142 silly addNameRange { name: 'usb-shyp-win32-x64',
+142 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+142 silly addNameRange   hasData: false }
+143 silly addNameRange { name: 'usb-shyp-win32-ia32',
+143 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+143 silly addNameRange   hasData: false }
+144 silly addNameRange { name: 'usb-shyp-darwin-x64',
+144 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+144 silly addNameRange   hasData: false }
+145 verbose request where is /bindings-shyp
+146 verbose request registry https://registry.npmjs.org/
+147 verbose url raw /bindings-shyp
+148 verbose url resolving [ 'https://registry.npmjs.org/', './bindings-shyp' ]
+149 verbose url resolved https://registry.npmjs.org/bindings-shyp
+150 verbose request where is https://registry.npmjs.org/bindings-shyp
+151 info trying registry request attempt 1 at 12:02:09
+152 verbose etag "5JCWXN71MIQR3VM0ZMGUAGB0E"
+153 http GET https://registry.npmjs.org/bindings-shyp
+154 verbose request where is /usb-shyp-win32-x64
+155 verbose request registry https://registry.npmjs.org/
+156 verbose url raw /usb-shyp-win32-x64
+157 verbose url resolving [ 'https://registry.npmjs.org/', './usb-shyp-win32-x64' ]
+158 verbose url resolved https://registry.npmjs.org/usb-shyp-win32-x64
+159 verbose request where is https://registry.npmjs.org/usb-shyp-win32-x64
+160 info trying registry request attempt 1 at 12:02:09
+161 verbose etag "EPJ9OD48T589HNR4Z3C6LJO3A"
+162 http GET https://registry.npmjs.org/usb-shyp-win32-x64
+163 verbose request where is /usb-shyp-win32-ia32
+164 verbose request registry https://registry.npmjs.org/
+165 verbose url raw /usb-shyp-win32-ia32
+166 verbose url resolving [ 'https://registry.npmjs.org/', './usb-shyp-win32-ia32' ]
+167 verbose url resolved https://registry.npmjs.org/usb-shyp-win32-ia32
+168 verbose request where is https://registry.npmjs.org/usb-shyp-win32-ia32
+169 info trying registry request attempt 1 at 12:02:09
+170 verbose etag "2BQ2K0IJLRQRG7G9OZIJGANCH"
+171 http GET https://registry.npmjs.org/usb-shyp-win32-ia32
+172 verbose request where is /usb-shyp-darwin-x64
+173 verbose request registry https://registry.npmjs.org/
+174 verbose url raw /usb-shyp-darwin-x64
+175 verbose url resolving [ 'https://registry.npmjs.org/', './usb-shyp-darwin-x64' ]
+176 verbose url resolved https://registry.npmjs.org/usb-shyp-darwin-x64
+177 verbose request where is https://registry.npmjs.org/usb-shyp-darwin-x64
+178 info trying registry request attempt 1 at 12:02:09
+179 verbose etag "7BEN6RCYD13321M8YT2LHGCFK"
+180 http GET https://registry.npmjs.org/usb-shyp-darwin-x64
+181 http 304 https://registry.npmjs.org/usb-shyp-win32-ia32
+182 silly registry.get cb [ 304,
+182 silly registry.get   { date: 'Mon, 25 Aug 2014 19:02:10 GMT',
+182 silly registry.get     server: 'Apache',
+182 silly registry.get     via: '1.1 varnish',
+182 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 19:02:10 GMT',
+182 silly registry.get     'cache-control': 'max-age=60',
+182 silly registry.get     etag: '"2BQ2K0IJLRQRG7G9OZIJGANCH"',
+182 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+182 silly registry.get     'x-cache': 'HIT',
+182 silly registry.get     'x-cache-hits': '1',
+182 silly registry.get     'x-timer': 'S1408993330.069974,VS0,VE31',
+182 silly registry.get     vary: 'Accept',
+182 silly registry.get     'content-length': '0',
+182 silly registry.get     'keep-alive': 'timeout=10, max=50',
+182 silly registry.get     connection: 'Keep-Alive' } ]
+183 verbose etag https://registry.npmjs.org/usb-shyp-win32-ia32 from cache
+184 silly addNameRange number 2 { name: 'usb-shyp-win32-ia32',
+184 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+184 silly addNameRange   hasData: true }
+185 silly addNameRange versions [ 'usb-shyp-win32-ia32',
+185 silly addNameRange   [ '0.3.3-0', '0.3.4-0', '0.3.6-0', '0.3.10-0', '0.3.11-0' ] ]
+186 verbose addNamed [ 'usb-shyp-win32-ia32', '0.3.11-0' ]
+187 verbose addNamed [ '0.3.11-0', '0.3.11-0' ]
+188 silly lockFile f9b19797-usb-shyp-win32-ia32-0-3-11-0 usb-shyp-win32-ia32@0.3.11-0
+189 verbose lock usb-shyp-win32-ia32@0.3.11-0 /home/ian/.npm/f9b19797-usb-shyp-win32-ia32-0-3-11-0.lock
+190 http 304 https://registry.npmjs.org/usb-shyp-darwin-x64
+191 silly registry.get cb [ 304,
+191 silly registry.get   { date: 'Mon, 25 Aug 2014 19:02:10 GMT',
+191 silly registry.get     server: 'Apache',
+191 silly registry.get     via: '1.1 varnish',
+191 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 19:02:10 GMT',
+191 silly registry.get     'cache-control': 'max-age=60',
+191 silly registry.get     etag: '"7BEN6RCYD13321M8YT2LHGCFK"',
+191 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+191 silly registry.get     'x-cache': 'HIT',
+191 silly registry.get     'x-cache-hits': '1',
+191 silly registry.get     'x-timer': 'S1408993330.074837,VS0,VE30',
+191 silly registry.get     vary: 'Accept',
+191 silly registry.get     'content-length': '0',
+191 silly registry.get     'keep-alive': 'timeout=10, max=50',
+191 silly registry.get     connection: 'Keep-Alive' } ]
+192 verbose etag https://registry.npmjs.org/usb-shyp-darwin-x64 from cache
+193 http 304 https://registry.npmjs.org/bindings-shyp
+194 silly registry.get cb [ 304,
+194 silly registry.get   { date: 'Mon, 25 Aug 2014 19:02:10 GMT',
+194 silly registry.get     server: 'Apache',
+194 silly registry.get     via: '1.1 varnish',
+194 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 19:02:10 GMT',
+194 silly registry.get     'cache-control': 'max-age=60',
+194 silly registry.get     etag: '"5JCWXN71MIQR3VM0ZMGUAGB0E"',
+194 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+194 silly registry.get     'x-cache': 'MISS',
+194 silly registry.get     'x-cache-hits': '0',
+194 silly registry.get     'x-timer': 'S1408993330.071009,VS0,VE35',
+194 silly registry.get     vary: 'Accept',
+194 silly registry.get     'content-length': '0',
+194 silly registry.get     'keep-alive': 'timeout=10, max=50',
+194 silly registry.get     connection: 'Keep-Alive' } ]
+195 verbose etag https://registry.npmjs.org/bindings-shyp from cache
+196 silly lockFile f9b19797-usb-shyp-win32-ia32-0-3-11-0 usb-shyp-win32-ia32@0.3.11-0
+197 silly lockFile f9b19797-usb-shyp-win32-ia32-0-3-11-0 usb-shyp-win32-ia32@0.3.11-0
+198 silly addNameRange number 2 { name: 'usb-shyp-darwin-x64',
+198 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+198 silly addNameRange   hasData: true }
+199 silly addNameRange versions [ 'usb-shyp-darwin-x64',
+199 silly addNameRange   [ '0.3.1',
+199 silly addNameRange     '0.3.3-0',
+199 silly addNameRange     '0.3.4',
+199 silly addNameRange     '0.3.4-1',
+199 silly addNameRange     '0.3.4-2',
+199 silly addNameRange     '0.3.5-0',
+199 silly addNameRange     '0.3.5-1',
+199 silly addNameRange     '0.3.6-0',
+199 silly addNameRange     '0.3.11-0' ] ]
+200 verbose addNamed [ 'usb-shyp-darwin-x64', '0.3.11-0' ]
+201 verbose addNamed [ '0.3.11-0', '0.3.11-0' ]
+202 silly lockFile d054facb-usb-shyp-darwin-x64-0-3-11-0 usb-shyp-darwin-x64@0.3.11-0
+203 verbose lock usb-shyp-darwin-x64@0.3.11-0 /home/ian/.npm/d054facb-usb-shyp-darwin-x64-0-3-11-0.lock
+204 silly lockFile 21539998-usb-shyp-win32-ia32-0-3-x usb-shyp-win32-ia32@0.3.x
+205 silly lockFile 21539998-usb-shyp-win32-ia32-0-3-x usb-shyp-win32-ia32@0.3.x
+206 silly addNameRange number 2 { name: 'bindings-shyp',
+206 silly addNameRange   range: '>=0.2.3-0 <0.3.0-0',
+206 silly addNameRange   hasData: true }
+207 silly addNameRange versions [ 'bindings-shyp',
+207 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.2.3' ] ]
+208 verbose addNamed [ 'bindings-shyp', '0.2.3' ]
+209 verbose addNamed [ '0.2.3', '0.2.3' ]
+210 silly lockFile 1dde6061-bindings-shyp-0-2-3 bindings-shyp@0.2.3
+211 verbose lock bindings-shyp@0.2.3 /home/ian/.npm/1dde6061-bindings-shyp-0-2-3.lock
+212 silly lockFile d054facb-usb-shyp-darwin-x64-0-3-11-0 usb-shyp-darwin-x64@0.3.11-0
+213 silly lockFile d054facb-usb-shyp-darwin-x64-0-3-11-0 usb-shyp-darwin-x64@0.3.11-0
+214 silly lockFile 3787fc88-usb-shyp-darwin-x64-0-3-x usb-shyp-darwin-x64@0.3.x
+215 silly lockFile 3787fc88-usb-shyp-darwin-x64-0-3-x usb-shyp-darwin-x64@0.3.x
+216 silly lockFile 1dde6061-bindings-shyp-0-2-3 bindings-shyp@0.2.3
+217 silly lockFile 1dde6061-bindings-shyp-0-2-3 bindings-shyp@0.2.3
+218 silly lockFile f6b51481-bindings-shyp-0-2-3 bindings-shyp@~0.2.3
+219 silly lockFile f6b51481-bindings-shyp-0-2-3 bindings-shyp@~0.2.3
+220 http 304 https://registry.npmjs.org/usb-shyp-win32-x64
+221 silly registry.get cb [ 304,
+221 silly registry.get   { date: 'Mon, 25 Aug 2014 19:02:10 GMT',
+221 silly registry.get     server: 'Apache',
+221 silly registry.get     via: '1.1 varnish',
+221 silly registry.get     'last-modified': 'Mon, 25 Aug 2014 19:02:10 GMT',
+221 silly registry.get     'cache-control': 'max-age=60',
+221 silly registry.get     etag: '"EPJ9OD48T589HNR4Z3C6LJO3A"',
+221 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+221 silly registry.get     'x-cache': 'HIT',
+221 silly registry.get     'x-cache-hits': '1',
+221 silly registry.get     'x-timer': 'S1408993330.089786,VS0,VE79',
+221 silly registry.get     vary: 'Accept',
+221 silly registry.get     'content-length': '0',
+221 silly registry.get     'keep-alive': 'timeout=10, max=50',
+221 silly registry.get     connection: 'Keep-Alive' } ]
+222 verbose etag https://registry.npmjs.org/usb-shyp-win32-x64 from cache
+223 silly addNameRange number 2 { name: 'usb-shyp-win32-x64',
+223 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+223 silly addNameRange   hasData: true }
+224 silly addNameRange versions [ 'usb-shyp-win32-x64',
+224 silly addNameRange   [ '0.3.4-0', '0.3.6-0', '0.3.10-0', '0.3.11-0' ] ]
+225 verbose addNamed [ 'usb-shyp-win32-x64', '0.3.11-0' ]
+226 verbose addNamed [ '0.3.11-0', '0.3.11-0' ]
+227 silly lockFile 7112e938-usb-shyp-win32-x64-0-3-11-0 usb-shyp-win32-x64@0.3.11-0
+228 verbose lock usb-shyp-win32-x64@0.3.11-0 /home/ian/.npm/7112e938-usb-shyp-win32-x64-0-3-11-0.lock
+229 silly lockFile 7112e938-usb-shyp-win32-x64-0-3-11-0 usb-shyp-win32-x64@0.3.11-0
+230 silly lockFile 7112e938-usb-shyp-win32-x64-0-3-11-0 usb-shyp-win32-x64@0.3.11-0
+231 silly lockFile 89bcf850-usb-shyp-win32-x64-0-3-x usb-shyp-win32-x64@0.3.x
+232 silly lockFile 89bcf850-usb-shyp-win32-x64-0-3-x usb-shyp-win32-x64@0.3.x
+233 silly resolved [ { name: 'usb-shyp-win32-ia32',
+233 silly resolved     version: '0.3.11-0',
+233 silly resolved     description: 'Compiled version of "usb" for win32-ia32',
+233 silly resolved     repository: { type: 'git', url: 'https://github.com/nonolith/node-usb.git' },
+233 silly resolved     os: [ 'win32' ],
+233 silly resolved     arch: [ 'ia32' ],
+233 silly resolved     bugs: { url: 'https://github.com/nonolith/node-usb/issues' },
+233 silly resolved     readme: 'ERROR: No README data found!',
+233 silly resolved     homepage: 'https://github.com/nonolith/node-usb',
+233 silly resolved     _id: 'usb-shyp-win32-ia32@0.3.11-0',
+233 silly resolved     _from: 'usb-shyp-win32-ia32@0.3.x' },
+233 silly resolved   { name: 'usb-shyp-darwin-x64',
+233 silly resolved     version: '0.3.11-0',
+233 silly resolved     description: 'Compiled version of "usb" for darwin-x64',
+233 silly resolved     repository: { type: 'git', url: 'https://github.com/nonolith/node-usb.git' },
+233 silly resolved     os: [ 'darwin' ],
+233 silly resolved     arch: [ 'x64' ],
+233 silly resolved     bugs: { url: 'https://github.com/nonolith/node-usb/issues' },
+233 silly resolved     readme: 'ERROR: No README data found!',
+233 silly resolved     homepage: 'https://github.com/nonolith/node-usb',
+233 silly resolved     _id: 'usb-shyp-darwin-x64@0.3.11-0',
+233 silly resolved     _from: 'usb-shyp-darwin-x64@0.3.x' },
+233 silly resolved   { name: 'bindings-shyp',
+233 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+233 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++', 'shyp' ],
+233 silly resolved     version: '0.2.3',
+233 silly resolved     author: '',
+233 silly resolved     repository:
+233 silly resolved      { type: 'git',
+233 silly resolved        url: 'git://github.com/tcr/node-bindings-shyp.git' },
+233 silly resolved     main: './bindings.js',
+233 silly resolved     readme: 'node-bindings\n=============\n### Helper module for loading your native module\'s .node file\n\nThis is a helper module for authors of Node.js native addon modules.\nIt is basically the "swiss army knife" of `require()`ing your native module\'s\n`.node` file.\n\nThroughout the course of Node\'s native addon history, addons have ended up being\ncompiled in a variety of different places, depending on which build tool and which\nversion of node was used. To make matters worse, now the _gyp_ build tool can\nproduce either a _Release_ or _Debug_ build, each being built into different\nlocations.\n\nThis module checks _all_ the possible locations that a native addon would be built\nat, and returns the first one that loads successfully.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install bindings\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n`require()`ing the proper bindings file for the current node version, platform\nand architecture is as simple as:\n\n``` js\nvar bindings = require(\'bindings\')(\'binding.node\')\n\n// Use your bindings defined in your C files\nbindings.your_c_function()\n```\n\n\nNice Error Output\n-----------------\n\nWhen the `.node` file could not be loaded, `node-bindings` throws an Error with\na nice error message telling you exactly what was tried. You can also check the\n`err.tries` Array property.\n\n```\nError: Could not load the bindings file. Tried:\n → /Users/nrajlich/ref/build/binding.node\n → /Users/nrajlich/ref/build/Debug/binding.node\n → /Users/nrajlich/ref/build/Release/binding.node\n → /Users/nrajlich/ref/out/Debug/binding.node\n → /Users/nrajlich/ref/Debug/binding.node\n → /Users/nrajlich/ref/out/Release/binding.node\n → /Users/nrajlich/ref/Release/binding.node\n → /Users/nrajlich/ref/build/default/binding.node\n → /Users/nrajlich/ref/compiled/0.8.2/darwin/x64/binding.node\n    at bindings (/Users/nrajlich/ref/node_modules/bindings/bindings.js:84:13)\n    at Object.<anonymous> (/Users/nrajlich/ref/lib/ref.js:5:47)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    ...\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+233 silly resolved     readmeFilename: 'README.md',
+233 silly resolved     bugs: { url: 'https://github.com/tcr/node-bindings-shyp/issues' },
+233 silly resolved     homepage: 'https://github.com/tcr/node-bindings-shyp',
+233 silly resolved     _id: 'bindings-shyp@0.2.3',
+233 silly resolved     _from: 'bindings-shyp@~0.2.3' },
+233 silly resolved   { name: 'usb-shyp-win32-x64',
+233 silly resolved     version: '0.3.11-0',
+233 silly resolved     description: 'Compiled version of "usb" for win32-x64',
+233 silly resolved     repository: { type: 'git', url: 'https://github.com/nonolith/node-usb.git' },
+233 silly resolved     os: [ 'win32' ],
+233 silly resolved     arch: [ 'x64' ],
+233 silly resolved     bugs: { url: 'https://github.com/nonolith/node-usb/issues' },
+233 silly resolved     readme: 'ERROR: No README data found!',
+233 silly resolved     homepage: 'https://github.com/nonolith/node-usb',
+233 silly resolved     _id: 'usb-shyp-win32-x64@0.3.11-0',
+233 silly resolved     _from: 'usb-shyp-win32-x64@0.3.x' } ]
+234 info install usb-shyp-win32-ia32@0.3.11-0 into /home/ian/comlink2-uart/node_modules/usb
+235 info install usb-shyp-darwin-x64@0.3.11-0 into /home/ian/comlink2-uart/node_modules/usb
+236 info install bindings-shyp@0.2.3 into /home/ian/comlink2-uart/node_modules/usb
+237 info install usb-shyp-win32-x64@0.3.11-0 into /home/ian/comlink2-uart/node_modules/usb
+238 info installOne usb-shyp-win32-ia32@0.3.11-0
+239 warn optional dep failed, continuing usb-shyp-win32-ia32@0.3.11-0
+240 verbose optional dep failed, continuing [ 'usb-shyp-win32-ia32@0.3.11-0',
+240 verbose optional dep failed, continuing   { [Error: Unsupported]
+240 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+240 verbose optional dep failed, continuing     os: [ 'win32' ],
+240 verbose optional dep failed, continuing     cpu: [ 'any' ],
+240 verbose optional dep failed, continuing     pkgid: 'usb-shyp-win32-ia32@0.3.11-0' } ]
+241 info installOne usb-shyp-darwin-x64@0.3.11-0
+242 warn optional dep failed, continuing usb-shyp-darwin-x64@0.3.11-0
+243 verbose optional dep failed, continuing [ 'usb-shyp-darwin-x64@0.3.11-0',
+243 verbose optional dep failed, continuing   { [Error: Unsupported]
+243 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+243 verbose optional dep failed, continuing     os: [ 'darwin' ],
+243 verbose optional dep failed, continuing     cpu: [ 'any' ],
+243 verbose optional dep failed, continuing     pkgid: 'usb-shyp-darwin-x64@0.3.11-0' } ]
+244 info installOne bindings-shyp@0.2.3
+245 info installOne usb-shyp-win32-x64@0.3.11-0
+246 warn optional dep failed, continuing usb-shyp-win32-x64@0.3.11-0
+247 verbose optional dep failed, continuing [ 'usb-shyp-win32-x64@0.3.11-0',
+247 verbose optional dep failed, continuing   { [Error: Unsupported]
+247 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+247 verbose optional dep failed, continuing     os: [ 'win32' ],
+247 verbose optional dep failed, continuing     cpu: [ 'any' ],
+247 verbose optional dep failed, continuing     pkgid: 'usb-shyp-win32-x64@0.3.11-0' } ]
+248 verbose node_modules/usb/node_modules/bindings-shyp unbuild
+249 verbose tar unpack /home/ian/.npm/bindings-shyp/0.2.3/package.tgz
+250 silly lockFile e7a5db52-s-usb-node-modules-bindings-shyp tar:///home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp
+251 verbose lock tar:///home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp /home/ian/.npm/e7a5db52-s-usb-node-modules-bindings-shyp.lock
+252 silly lockFile a5cbc8ac--bindings-shyp-0-2-3-package-tgz tar:///home/ian/.npm/bindings-shyp/0.2.3/package.tgz
+253 verbose lock tar:///home/ian/.npm/bindings-shyp/0.2.3/package.tgz /home/ian/.npm/a5cbc8ac--bindings-shyp-0-2-3-package-tgz.lock
+254 silly gunzTarPerm modes [ '775', '664' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+257 silly gunzTarPerm extractEntry README.md
+258 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+259 silly gunzTarPerm extractEntry bindings.js
+260 silly gunzTarPerm modified mode [ 'bindings.js', 420, 436 ]
+261 silly lockFile e7a5db52-s-usb-node-modules-bindings-shyp tar:///home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp
+262 silly lockFile e7a5db52-s-usb-node-modules-bindings-shyp tar:///home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp
+263 silly lockFile a5cbc8ac--bindings-shyp-0-2-3-package-tgz tar:///home/ian/.npm/bindings-shyp/0.2.3/package.tgz
+264 silly lockFile a5cbc8ac--bindings-shyp-0-2-3-package-tgz tar:///home/ian/.npm/bindings-shyp/0.2.3/package.tgz
+265 info preinstall bindings-shyp@0.2.3
+266 verbose readDependencies using package.json deps
+267 verbose readDependencies using package.json deps
+268 silly resolved []
+269 verbose about to build /home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp
+270 info build /home/ian/comlink2-uart/node_modules/usb/node_modules/bindings-shyp
+271 verbose linkStuff [ false,
+271 verbose linkStuff   false,
+271 verbose linkStuff   false,
+271 verbose linkStuff   '/home/ian/comlink2-uart/node_modules/usb/node_modules' ]
+272 info linkStuff bindings-shyp@0.2.3
+273 verbose linkBins bindings-shyp@0.2.3
+274 verbose linkMans bindings-shyp@0.2.3
+275 verbose rebuildBundles bindings-shyp@0.2.3
+276 info install bindings-shyp@0.2.3
+277 info postinstall bindings-shyp@0.2.3
+278 verbose about to build /home/ian/comlink2-uart/node_modules/usb
+279 info build /home/ian/comlink2-uart/node_modules/usb
+280 verbose linkStuff [ false, false, false, '/home/ian/comlink2-uart/node_modules' ]
+281 info linkStuff usb@0.3.11
+282 verbose linkBins usb@0.3.11
+283 verbose linkMans usb@0.3.11
+284 verbose rebuildBundles usb@0.3.11
+285 verbose rebuildBundles [ 'bindings-shyp' ]
+286 info install usb@0.3.11
+287 verbose unsafe-perm in lifecycle true
+288 info usb@0.3.11 Failed to exec install script
+289 verbose node_modules/usb unbuild
+290 info preuninstall usb@0.3.11
+291 info uninstall usb@0.3.11
+292 verbose true,/home/ian/comlink2-uart/node_modules,/home/ian/comlink2-uart/node_modules unbuild usb@0.3.11
+293 info postuninstall usb@0.3.11
+294 error usb@0.3.11 install: `node shyp-blacklist.js win32-x64 win32-ia32 darwin-x64 || node-gyp rebuild`
+294 error Exit status 1
+295 error Failed at the usb@0.3.11 install script.
+295 error This is most likely a problem with the usb package,
+295 error not with npm itself.
+295 error Tell the author that this fails on your system:
+295 error     node shyp-blacklist.js win32-x64 win32-ia32 darwin-x64 || node-gyp rebuild
+295 error You can get their info via:
+295 error     npm owner ls usb
+295 error There is likely additional logging output above.
+296 error System Linux 3.13.0-24-generic
+297 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "."
+298 error cwd /home/ian/comlink2-uart
+299 error node -v v0.10.30
+300 error npm -v 1.4.21
+301 error code ELIFECYCLE
+302 verbose exit [ 1, true ]
